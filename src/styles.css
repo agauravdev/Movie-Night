@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #00bfa6;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+  --secondary-color: #355e98;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+}
+
+.genre {
+  margin-right: 15px;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  display: inline-block;
+  background-color: var(--off-white);
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+}
+
+.genre:active {
+  outline: none;
+  border: none;
+}
+
+.movie {
+  min-width: 400px;
+  border: 1px solid var(--secondary-color);
+  margin: 10px 20px 10px 20px;
+  padding: 20px;
+  border-radius: 0.75rem;
+  text-align: left;
+}
